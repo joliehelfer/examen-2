@@ -3,6 +3,9 @@
 // ==================================== */
 
 :root {
+  color: #ffe4ae;
+  color: #030303;
+  color: #bd685f;
 }
 
 /* ====================================
@@ -15,6 +18,13 @@
   padding: 0;
 }
 
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
 html {
   font-size: 16px;
 }
@@ -23,32 +33,122 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  background-color: #030303;
   font-size: 1rem;
   line-height: 1.25;
+}
+
+.navigation {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ffe4ae;
+  font-family: "Montserrat", sans-serif;
+  background-color: #030303;
+}
+
+header {
+  background-image: url(../img/charleston-club.jpg);
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 2;
+}
+
+.titre {
+  text-align: center;
+  margin-top: 16%;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffe4ae;
+  font-family: "Jomolhari", serif;
 }
 
 a {
   color: inherit;
 }
 
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
+h2 {
+  padding: 0%;
 }
 
-.row + .row {
-  margin-top: 16px;
+.h2-nav-2 {
+  color: #bd685f;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 15px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.h2-nav {
+  color: #bd685f;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 30px 30px 0 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+p {
+  color: #ffe4ae;
+  font-family: "Jomolhari", serif;
+  padding: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.texte-carte {
+  text-align: center;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-infos {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px 5px 10px;
+  color: #ffe4ae;
+  border-radius: 20px;
+  background-color: #030303;
+  border-color: #bd685f;
+}
+
+.button-reservation {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px 5px 10px;
+  margin: 30px 0 0 0;
+  color: #bd685f;
+  border-radius: 20px;
+  background-color: #030303;
+  border-color: #ffe4ae;
+}
+
+img {
+  justify-content: center;
+}
+
+.cocktail-img {
+  padding: 0 0 30px 0;
+}
+
+.açren {
+  font-family: "Jomolhari", serif;
+  padding: 0;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+}
+
+.img-insta {
+  width: 20;
+  height: auto;
 }
 
 /*Base Rules*/
